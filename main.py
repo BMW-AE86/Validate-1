@@ -94,7 +94,7 @@ for item in valid:
     pdf.cell(200, 10, txt=item + ",", ln=True, align='L')
 
 # Save the PDF
-pdf_file_name = "valid_emails1.pdf"
+pdf_file_name = "valid_emails-Vlidate1.pdf"
 pdf.output(pdf_file_name)
 
 
